@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* jianghong compile  网站整体默认CSS样式 */
+body, ul, p, h1, h2, h3, h4, dl, dd, form, input, textarea, select {
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+	font-size: 12px;
+}
+li {
+	list-style: none;
+}
+img {
+	border: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.clear {
+	zoom: 1;
+}
+.clear:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+body {
+	background: url(../images/bg.png) 0 0 no-repeat #f8f2e4;
+}
+.login_header {
+	width: 1002px;
+	color: #fff;
+	margin: 0 auto;
+}
+#login_left {
+	float: left;
+	line-height: 30px;
+	vertical-align: middle;
+}
+#login_right {
+	float: right;
+	line-height: 30px;
+	vertical-align: middle;
+}
+.wrap {
+}
+/********************* 头部样式定制   *********************/
+#header {
+	width: 100%;
+}
+#header .logo {
+	width: 1002px;
+	margin: 0 auto;
+}
+/*解决图片下空隙问题*/
+#header .logo img {
+	vertical-align: top;
+}
+#header .nav {
+	margin: 0 auto;/*background: url(../images/menu_bg.png) repeat-x;*/
+}
+#header .nav ul {
+	width: 1002px;
+	margin: 0 auto;
+}
+.nav .current {
+}
+/********************** 中间内容主体样式定制  *********************/
+#content {
+	width: 1002px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+.content_line {
+	margin-top: 10px;
+	width: 100%;
+	clear: both;
+}
+.image_border {
+	float: left;
+	background: url(../images/image_border.png) 0 0 no-repeat;
+	width: 398px;
+	height: 286px;
+}
+
+#loginform_notLogin{
+	display:block;
+	margin:0px 15px;
+	padding:15px;
+}
+#userlogin1{
+	float:left;
+	width:322px;
+}
+#news {
+	float: right;
+	width: 670px;
+}
+#announcement, #friendlink {
+	float: left;
+	width: 322px;
+}
+#policy, #agency {
+	float: left;
+	margin: 0px 10px;
+	width: 330px;
+}
+#download, #labor {
+	float: right;
+	width: 330px;
+}
+.new_image {
+	width: 398px;
+	height: 286px;
+}
+/********************** footer 样式定制  *********************/
+
+#footer {
+	width: 1002px;
+	height: 153px;
+	margin: 0 auto;
+	clear: both;
+	position: relative;
+	background: url(../images/bbg.png) repeat-x
+}
+.bottom_about {
+	width: 1002px;
+	height: 28px;
+	position: absolute;
+	top: 43px;
+	left: 0px;
+}
+#copyright {
+	width: 1002px;
+	height: 28px;
+	position: absolute;
+	top: 90px;
+	left: 0px;
+	text-align: center;
+	font: 12px/20px Arial, Helvetica, sans-serif;
+}
+#copyright a {
+	color: #000;
+}
+/********************** 边框样式定制  *********************/
+.list_content {
+	padding: 15px;
+	height: auto;
+	min-height:150px;
+}
+.border_l {
+	border: 0px none;
+	background: #fff url(../images/l.png) repeat-y;
+}
+.border_r {
+	height: 100%;
+	background: url(../images/r.png) right repeat-y
+}
+.border_top {
+	height: 36px;
+	background: url(../images/border.png) 0px 0px no-repeat
+}
+.border_top_r {
+	float: right;
+	width: 60px;
+	height: 36px;
+	text-align: right;
+	background: url(../images/border.png) -834px 0px no-repeat
+}
+.border_top span {
+	float: left;
+	font: bold 12px/40px SimSun, Arial, Sans-Serif;
+	padding-left: 35px;
+	color: #fff;
+}
+.border_r img.more {
+	border: 0px;
+	margin: 16px 20px 0px 0px;
+}
+.border_bottom {
+	margin-top: 0px;
+	height: 12px;
+	line-height: 12px;
+	background: url(../images/border.png) 0px -221px no-repeat
+}
+.border_bottom_r_corner {
+	float: right;
+	margin-top: -12px;
+	width: 12px;
+	height: 12px;
+	line-height: 12px;
+	background: url(../images/border.png) -882px -221px no-repeat
+}
+.top_r {
+	float: right;
+	width: 60px;
+	height: 39px;
+	text-align: right;
+	background: url(../images/border.png) -837px 0px no-repeat
+}
+/********************** 信息列表样式定制  *********************/
+
+.search_title_line_top {
+	height: 4px;
+	background: url(../images/toprec.png) 0px 0px no-repeat
+}
+ul.newslist {
+	margin: 0 5px;
+	padding: 0;
+	width: 100%;
+}
+ul.newslist li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	color: #808080;
+	font: 12px/26px simsun, arial;
+	height: 31px;
+	overflow: hidden;
+	line-height: 31px;
+	background: url(../images/line.png) 0px -4px no-repeat;
+}
+ul.newslist li a {
+	text-decoration: none;
+	padding-left: 20px;
+	font: 12px/26px simsun, arial;
+	color: #303030;
+}
+ul.newslist li a:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+ul.newslist li span {
+	float: right
+}
+/*=========脚注菜单===========*/
+div#bottommenu {
+	height: 28px;
+	color: #fff;
+	text-align: center;
+}
+div#bottommenu a:link, div#bottommenu a:visited, div#bottommenu a:active {
+	margin: 0 8px;
+	color: #fff;
+	font: 12px/28px 'SimSun', Arial, Sans-Serif;
+	text-decoration: none;
+}
+div#bottommenu a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+/*=============登录表单===========*/
+
+div.loginform {
+	margin: 0 5px;
+	padding: 0;
+}
+div.loginform .col {
+	height: 28px;
+	line-height: 40px;
+	float: left;
+	clear:both;
+	font-size: 14px;
+	margin-right: 20px;
+	white-space: nowrap;
+	
+}
+div.loginform .con {
+	height: 40px;
+	float: left;
+}
+div.loginform .con input {
+	width: 180px;
+}
+div.loginform .input {
+	height: 20px;
+	margin-top: 8px;
+}

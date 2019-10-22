@@ -1,0 +1,47 @@
+/*=============��¼�?===========*/
+div.loginform {
+	display: none;
+	margin: 0 5px;
+	padding: 0;
+}
+
+div.loginform .col {
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	white-space: nowrap;
+}
+
+div.loginform .con {
+	height: 40px;
+}
+
+div.loginform .yanzheng {
+	height: 28px;
+	white-space: nowrap;
+	float: left;
+	margin-right: 1px;
+}
+
+div.loginform_islogin {
+	display: none;
+	clear: both;
+	text-align: center;
+	line-height: 32px;
+	padding: 12px;
+}
+
+#user_login_form {
+	
+	text-align: center;
+	margin-top:20px;
+	
+}
+
+#user_login_form input{
+	margin:0px 50px 0px 0px;
+}
+
+#loginform_logout {
+	cursor: pointer
+}

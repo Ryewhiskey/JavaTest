@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+#subcontent {
+	width: 1002px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	overflow: auto;
+}
+#subcontent .left {
+	width: 320px;
+	float: left;
+}
+#subcontent .right {
+	width: 672px;
+	float: right;	
+}
+#subannoucement, #subfriendlink {
+	width: 322px;	
+}
+
+
+.content_search_result{
+	
+	top: 20px;
+	left: 0px;
+	width:100%;
+	
+	
+}
+.search_result_border{
+	border: 0px none; 
+	height: 39px; 
+	padding: 0px; 
+	margin: 0px; 
+	background: url(../images/title.png) no-repeat scroll 0px 0px;
+	width:672px;
+}
+.search_result_border span{
+	font: 12px/40px SimSun, Arial, Sans-Serif;
+	padding-left:40px;
+	display:block;
+	height: 39px; 
+	line-height:39px;
+	text-align:center left;	
+	
+}
+#search_result{
+	
+	width: 672px; 	 
+	top: 30px; 
+	left: 10px;
+}
+.content_right_search{
+	width: 672px;
+	top: 13px;
+	left: 0px;
+}
+div.content_right_search .search_title{
+	font: 12px/40px SimSun, Arial, Sans-Serif;
+	padding:0px 0px 0px 15px;
+	
+}
+
+/********************* 查询结果列表显示样式定制   *********************/
+div#newsquery {
+margin:0px;
+padding:0px;
+
+}
+
+div#newsquery ul{
+background:#fff;
+margin:0;
+padding:0;
+}
+
+div#newsquery li{
+list-style-type: none;
+height:31px;
+font-size: 12px;
+overflow: hidden;
+line-height:31px;
+background:url(../images/line.png) 0px -3px no-repeat;
+}
+
+div#newsquery a:link,div#newsquery a:visited,div#newsquery a:active{
+text-decoration: none;
+font:12px/24px Verdana, Arial, Helvetica, sans-serif;
+color:#333;
+}
+
+div#newsquery a:hover{
+text-decoration: underline;
+font:12px/24px Verdana, Arial, Helvetica, sans-serif;
+color:#e10000;
+}
+
+
+div#newsquery li.title{
+padding-left:22px;
+}
+
+
+div#newsquery div.title{
+float:left;
+font:12px/24px Verdana, Arial, Helvetica, sans-serif;
+}
+
+div#newsquery .time{
+float:right;
+white-space: nowrap;
+overflow: hidden;
+font:12px/22px Verdana, Arial, Helvetica, sans-serif;
+padding-left:5px;
+color:#999;
+}
+
+
+
+/********************* 查询结果翻页样式定制   *********************/
+
+div#showpages {
+clear:both;
+padding:0px;
+margin:20px 0px;
+width:100%;
+height:30px;
+white-space: nowrap;
+}
+
+div#pagesinfo {
+float:left;
+padding:3px 8px;
+white-space: nowrap;
+}
+
+div#pages {
+float:right;
+padding-right:8px;
+white-space: nowrap;
+}
+
+div#pages ul{
+margin:0;
+padding:0;
+}
+
+div#pages a:link,div#pages a:visited,div#pages a:active{
+color:#303030;
+text-decoration: none;
+}
+
+div#pages a:hover{
+color:#ff0000;
+text-decoration: none;
+}
+
+div#pages li{
+margin:3px;
+padding:2px 5px;
+list-style-type: none;
+float:left;
+background:#dcd9d4;
+color:#303030;
+border:1px #dcd9d4 solid;
+white-space: nowrap;
+}
+
+div#pages li.pagesnow{
+color:#303030;
+background-color:#eee;
+white-space: nowrap;
+border:1px #dcd9d4 solid;
+}
+
+div#pages li.pbutton{
+color:#303030;
+background-color:#dcd9d4;
+padding:3px 5px 1px 5px;
+white-space: nowrap;
+border:1px #dcd9d4 solid;
+}
+
+div#pages li.opt{
+color:#303030;
+padding:0px;
+white-space: nowrap;
+border:0px;
+background:#fff;
+}
+/*=========搜索表单样式定义===========*/
+
+div.searchform_line{
+
+	line-height:30px;
+	margin:10px;
+	padding:0px 0px;
+}
+div.searchform_line span{
+	margin:0px 5px;
+}
+div.searchform_line span label{
+	margin:0px 2px;
+	font:12px/24px Verdana, Arial, Helvetica, sans-serif;
+}
+div.searchform_line input.submit{
+	display:inline-block;
+	border: 0px none; 	
+	float:right;
+	width:68px;
+	height:22px;
+	margin-left:10px;
+	margin-top:3px;
+	background:url(../images/search.png) 0px 0px no-repeat transparent;
+	
+}
