@@ -12,15 +12,15 @@
 	</context-param>
 	<context-param>
 		<param-name>jdbc.url</param-name>
-		<param-value>jdbc:mysql://202.201.33.27:3306/cxcy?characterEncoding=UTF-8</param-value>
+		<param-value>jdbc:mysql://172.30.101.104/cxcy?characterEncoding=UTF-8</param-value>
 	</context-param>
 	<context-param>
 		<param-name>jdbc.username</param-name>
-		<param-value>root</param-value>
+		<param-value>mysql01</param-value>
 	</context-param>
 	<context-param>
 		<param-name>jdbc.password</param-name>
-		<param-value>mysql@123</param-value>
+		<param-value>mysql01</param-value>
 	</context-param>
 	<context-param>
 		<param-name>cpool.checkoutTimeout</param-name>
