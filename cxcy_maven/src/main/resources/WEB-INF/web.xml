@@ -12,7 +12,7 @@
 	</context-param>
 	<context-param>
 		<param-name>jdbc.url</param-name>
-		<param-value>jdbc:mysql//mysql01@172.30.101.104:3306/cxcy?characterEncoding=UTF-8</param-value>
+		<param-value>jdbc:mysql://mysql01:mysql01@172.30.101.104:3306/cxcy?characterEncoding=UTF-8</param-value>
 	</context-param>
 	<context-param>
 		<param-name>jdbc.username</param-name>
